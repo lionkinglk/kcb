@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::any('ormadd',['uses' => 'KcbController@ormadd']);
+Route::any('ormupdate',['uses' => 'KcbController@ormupdate']);
